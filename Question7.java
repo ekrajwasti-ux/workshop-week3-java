@@ -20,7 +20,7 @@ class BankAccount2 {
 public class Question7 {
 	public static void main(String[] args) {
 
-        BankAccount2 b = new BankAccount2(222425, 5000, "Ram");
+        BankAccount2 b = new BankAccount2(240409, 1000, "Hari");
 
         b.display();
     }
