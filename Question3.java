@@ -45,9 +45,9 @@ public class Question3 {
 	       
         BankAccount acc = new BankAccount();
 
-        acc.setAccountNumber(222421);
-        acc.setBalance(5045.75);
-        acc.setAccountHolderName("Aarogya Koirala");
+        acc.setAccountNumber(000949);
+        acc.setBalance(50000);
+        acc.setAccountHolderName("Ekraj Wasti");
         acc.setAccountHolderAddress("Biratnagar");
 
       
