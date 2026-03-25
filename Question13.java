@@ -42,9 +42,9 @@ public class Question13 {
         BankAccount6 acc1 = new BankAccount6();
 
 
-        BankAccount6 acc2 = new BankAccount6(11221, "Sandy");
+        BankAccount6 acc2 = new BankAccount6(10000, "Ekraj");
         
-        BankAccount6 acc3 = new BankAccount6(10112, "Shyam", 5012);
+        BankAccount6 acc3 = new BankAccount6(20000, "Rochak", 5012);
 
         System.out.println("Account 1: " + acc1.getAccountNumber() + ", " 
                            + acc1.getAccountHolder() + ", Balance: " + acc1.getBalance());
