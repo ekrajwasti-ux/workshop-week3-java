@@ -38,9 +38,9 @@ public class Question11 {
         Address addr = new Address();
 
        
-        addr.setStreet("New Road");
-        addr.setCity("Kathmandu");
-        addr.setZipCode("212123");
+        addr.setStreet("Himalaya Road");
+        addr.setCity("Biratnagar");
+        addr.setZipCode("56613");
 
        
         System.out.println("Street: " + addr.getStreet());
