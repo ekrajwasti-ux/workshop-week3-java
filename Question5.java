@@ -23,9 +23,9 @@ public class Question5 {
 	 public static void main(String[] args) {
 	        BankAccount1 b = new BankAccount1();
 
-	        b.depositMoney(15550);
+	        b.depositMoney(10000);
 
-	        b.withdrawMoney(9802);
+	        b.withdrawMoney(9000);
 	    }
 
 }
