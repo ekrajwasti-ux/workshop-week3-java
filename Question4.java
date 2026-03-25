@@ -5,9 +5,9 @@ public class Question4 {
 
         BankAccount acc = new BankAccount();
 
-        acc.setAccountNumber(44552837);
-        acc.setBalance(9980);
-        acc.setAccountHolderName("Aarogya Koirala");
+        acc.setAccountNumber(404043);
+        acc.setBalance(40404);
+        acc.setAccountHolderName("Ekraj Wasti");
         acc.setAccountHolderAddress("Chitwan");
 
         System.out.println("accountnumber "+acc.getAccountNumber());
