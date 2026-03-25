@@ -1,38 +1,31 @@
 package Workshop3;
-//BankAccount class
 class BankAccount5 {
  private double balance;
 
- // parameterized constructor
  public BankAccount5(double balance) {
      this.balance = balance;
  }
 
- // getter
  public double getBalance() {
      return balance;
  }
 
- // setter
  public void setBalance(double balance) {
      this.balance = balance;
  }
 }
 
-//Customer class
 class Customer {
  private int customerId;
  private String name;
  private BankAccount5 account;
 
- // parameterized constructor
  public Customer(int customerId, String name, BankAccount5 account) {
      this.customerId = customerId;
      this.name = name;
      this.account = account;
  }
 
- // getters
  public int getCustomerId() {
      return customerId;
  }
@@ -45,7 +38,7 @@ class Customer {
      return account;
  }
 
- // setters
+ 
  public void setCustomerId(int customerId) {
      this.customerId = customerId;
  }
@@ -66,8 +59,8 @@ public class Question12 {
         BankAccount5 acc2 = new BankAccount5(200324);
 
         
-        Customer c1 = new Customer(1, "Hareram", acc1);
-        Customer c2 = new Customer(2, "Krishna", acc2);
+        Customer c1 = new Customer(1, "ram", acc1);
+        Customer c2 = new Customer(2, "shyam", acc2);
 
 
         System.out.println("Customer 1 ID: " + c1.getCustomerId());
